@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Expenalysis</string>
+    <string name="lbl_home">Expenalysis by Yash</string>
+    <string name="no_sms_found">No sms found</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="analysing">Analysing Messages…</string>
+    <string name="account">A/C</string>
+    <string name="credit">credit</string>
+    <string name="debit">debit</string>
+    <string name="body">body</string>
+    <string name="lbl_graph">Graph</string>
+    <string name="search">Search</string>
+    <string name="no_data">No messages found.</string>
+    <string name="lbl_transaction_type">Transaction type:</string>
+    <string name="lbl_transaction_amount">Transaction amount :</string>
+    <string name="lbl_transaction_tag">Tag :</string>
+    <string name="submit">Set tag</string>
+    <string name="invalid_tag_error">Enter a valid tag</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="empty_list">Empty list</string>
+    <string name="empty_list_message">No transactions or messages found</string>
+    <string name="ok">OK</string>
+    <string name="info">Information</string>
+    <string name="home_screen_info">Hi, \nI have limited the size of Income and Expense lists to 5. Modify the same in the code, if required. Press \"OK\" to continue…</string>
+    <string name="divider">divider</string>
+    <string name="no_tag_set">No tags set</string>
+    <string name="no_tag_error">Please set at least one tag!</string>
+    <string name="expense_income_chart">Expense/Income graph</string>
+    <string name="tag_not_set">No Tag</string>
+    <string name="transactions">Transactions</string>
+    <string name="lbl_total_income">Total Income :</string>
+    <string name="lbl_total_expense">Total Expense :</string>
+    <string name="lbl_expense_percentage">Total expense percentage :</string>
+</resources>

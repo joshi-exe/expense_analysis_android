@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#fafafa">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dp_6"/>
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dp_6"/>
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_16"
+        android:gravity="center"
+        android:text="@string/expense_income_chart"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_20" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_500"
+        android:layout_marginTop="@dimen/dp_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/lbl_total_income"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/tvIncome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            tools:text="@string/lbl_total_income" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/lbl_total_expense"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/tvExpense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            tools:text="@string/lbl_total_expense" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="@string/lbl_expense_percentage"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            tools:text="@string/lbl_total_expense" />
+    </LinearLayout>
+
+</LinearLayout>

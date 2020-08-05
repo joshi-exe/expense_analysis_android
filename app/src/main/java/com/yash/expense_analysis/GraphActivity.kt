@@ -32,7 +32,7 @@ class GraphActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val args = intent?.getBundleExtra(GRAPH_DATA)
-        val arrayList =
+        @Suppress("UNCHECKED_CAST") val arrayList =
             args?.getSerializable(GRAPH_LIST) as ArrayList<Transactions>?
 
         transactionsList = arrayList ?: arrayListOf()

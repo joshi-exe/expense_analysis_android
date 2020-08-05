@@ -1,5 +1,6 @@
 package com.yash.expense_analysis
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -41,6 +42,7 @@ class TransactionAdapter(val listener: (Pair<Transactions, String>) -> Unit) :
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        @SuppressLint("SetTextI18n")
         fun bindItems(transactions: Transactions) = with(itemView) {
 
             tvMessages.text = transactions.messageBody
@@ -99,6 +101,7 @@ class TransactionAdapter(val listener: (Pair<Transactions, String>) -> Unit) :
             return results
         }
 
+        @Suppress("UNCHECKED_CAST")
         override fun publishResults(p0: CharSequence?, results: FilterResults?) {
             if (results != null) {
                 val values = results.values

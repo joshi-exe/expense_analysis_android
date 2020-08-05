@@ -38,7 +38,9 @@ import java.io.Serializable
 class MainActivity : AppCompatActivity() {
 
     private val _searchTag = "SMS ANALYSIS :"
-    private val REQUEST_CODE_ASK_PERMISSIONS = 123;
+
+    @Suppress("PrivatePropertyName")
+    private val REQUEST_CODE_ASK_PERMISSIONS = 123
     private lateinit var analyseProgress: Progress
     private lateinit var expense: ArrayList<Transactions>
     private lateinit var income: ArrayList<Transactions>

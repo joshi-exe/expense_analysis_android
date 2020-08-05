@@ -1,9 +1,8 @@
 No additional configuration is required to run the code, simple build and run.
 
-Currently I have limited the size of both Income and Expensed list to "5", so that the list isn't flooded if there are way too many messages.
+Currently I have limited the size of both Income and Expense list to "5", so that the list isn't flooded if there are way too many messages.
 
-To remove the limit, follow the below steps:
-
+To remove the limit, go to MainActivity and follow the below steps:
 1. At line 183, remove the "&& income.size < 5" part from if condition.
 2. Similarly, at line 215, remove "&& expense.size < 5" from if condition.
 3. At line 224, "&& !isLimitReached" remove from while condition.
@@ -26,8 +25,4 @@ tag that is set for a message. List will be filtered.
 6. Tag on graph icon on top right corner of action bar to load bar graph against the tags. NOTE: at least one tag need to be set to see graph according to my conditions. 
 To remove such condition, remove the else-if condition at line 79. The graph is also only and only accessible if any list is populated. If in case no transaction messages are 
 found the list will be empty and I haven't allowed in the app to redirect to graph activity.
-7. Bar Graph can be zoomed in and panned around. It's an interactable graph.
-
-Feel free to contact me if there are any queries, I'll drop my details below:
-
-email: 69yash@gmail.com
+7. Bar Graph can be zoomed in and panned around. It's an intractable graph.
